@@ -238,6 +238,7 @@ input {
 
 .mtop {
   margin-top: 40px;
+  overflow: hidden;
 }
 
 .heading h1 {
@@ -365,6 +366,36 @@ input {
 }
 
 /*--------rooms---------*/
+.roomclasses {
+  display: flex;
+  gap: 40px;
+  transform: translateX(0px);
+  transition: 0.5s;
+}
+.imghotel {
+  width: 100%;
+}
+.items {
+  width: 500px;
+}
+.btns {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  width: 100%;
+  justify-content: end;
+  padding: 0 30px 30px 0;
+}
+.btn1 {
+  width: 45px;
+  height: 45px;
+  background-color: #7fc142;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  color: white;
+}
 /*--------gallery---------*/
 .gallery {
   position: relative;
